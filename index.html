@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script id="app" type="text/x-handlebars-template">
+        <div class="entry">
+            <h1>{{ name }}</h1>
+            <div class="body">
+                {{{ age }}}
+            </div>
+        </div>
+    </script>
+    <div id="result"></div>
+    <script src="./observer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
